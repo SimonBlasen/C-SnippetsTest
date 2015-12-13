@@ -5,6 +5,8 @@
 #include <QVector3D>
 #include <QVector2D>
 
+#include "mymodel.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -19,6 +21,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MyModel m_model;
 };
 
 #endif // MAINWINDOW_H
